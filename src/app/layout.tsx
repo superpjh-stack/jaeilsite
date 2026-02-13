@@ -10,6 +10,10 @@ const notoSansKR = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ||
+      "https://jaeil-homepage-419291531449.asia-northeast3.run.app"
+  ),
   title: {
     default: "주식회사 재일 | 스마트팩토리 & AI서비스 & 프로토타입 솔루션",
     template: "%s | 주식회사 재일",
