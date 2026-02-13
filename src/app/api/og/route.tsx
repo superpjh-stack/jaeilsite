@@ -1,11 +1,8 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "주식회사 재일 | 스마트팩토리 & AI서비스 & 프로토타입 솔루션";
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
 
-export default async function Image() {
+export async function GET() {
   return new ImageResponse(
     (
       <div
@@ -59,7 +56,6 @@ export default async function Image() {
             position: "relative",
           }}
         >
-          {/* Logo */}
           <div
             style={{
               display: "flex",
@@ -73,7 +69,6 @@ export default async function Image() {
             JAEIL
           </div>
 
-          {/* Company name */}
           <div
             style={{
               display: "flex",
@@ -86,7 +81,6 @@ export default async function Image() {
             주식회사 재일
           </div>
 
-          {/* Service tags */}
           <div
             style={{
               display: "flex",
@@ -114,7 +108,6 @@ export default async function Image() {
             ))}
           </div>
 
-          {/* Description */}
           <div
             style={{
               display: "flex",
@@ -160,6 +153,6 @@ export default async function Image() {
         </div>
       </div>
     ),
-    { ...size }
+    { width: 1200, height: 630 }
   );
 }

@@ -26,12 +26,28 @@ export const metadata: Metadata = {
     description:
       "제조기업의 디지털 전환과 AI 혁신을 위한 토탈 솔루션",
     url: "https://jaeil-homepage-419291531449.asia-northeast3.run.app",
+    images: [
+      {
+        url: "https://jaeil-homepage-419291531449.asia-northeast3.run.app/api/og",
+        width: 1200,
+        height: 630,
+        alt: "주식회사 재일 | 스마트팩토리 & AI서비스 & 프로토타입 솔루션",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "주식회사 재일 | 스마트팩토리 & AI서비스 & 프로토타입 솔루션",
     description:
       "제조기업의 디지털 전환과 AI 혁신을 위한 토탈 솔루션",
+    images: [
+      {
+        url: "https://jaeil-homepage-419291531449.asia-northeast3.run.app/api/og",
+        width: 1200,
+        height: 630,
+        alt: "주식회사 재일 | 스마트팩토리 & AI서비스 & 프로토타입 솔루션",
+      },
+    ],
   },
 };
 
