@@ -1,4 +1,5 @@
 import HeroSlider from "@/components/home/HeroSlider";
+import ClientMarquee from "@/components/home/ClientMarquee";
 import ServiceSection from "@/components/home/ServiceSection";
 import PortfolioHighlight from "@/components/home/PortfolioHighlight";
 import StatsCounter from "@/components/home/StatsCounter";
@@ -8,9 +9,10 @@ export default function HomePage() {
   return (
     <>
       <HeroSlider />
+      <ClientMarquee />
       <ServiceSection />
-      <PortfolioHighlight />
       <StatsCounter />
+      <PortfolioHighlight />
       <CTASection />
     </>
   );
